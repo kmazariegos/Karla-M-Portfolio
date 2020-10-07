@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head><link rel="stylesheet" href="normalize.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>DevKarla Portfolio Website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        
+        <!-- Update these with your own fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Roboto+Slab:400,700&display=swap" rel="stylesheet"> 
+        
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="img/devkarla.png" alt="">
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">My Skills</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <!-- Introduction -->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hi, I am <strong>Karla</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Software Engineer</p>
+            <img src="img/dev-karla-01.png" alt="a picture of Karla" class="intro__img">
+        </section>
+        
+        
+        <!-- My services -->
+        <section class="my-services" id="services">
+            <h2 class="section__title section__title--services">Skills</h2>
+            <div class="services">
+                <!-- <div class="service">
+                    <h3>Programing Languages</h3>
+                    <p>Javascript, Python</p>
+                </div>  -->
+                
+                <div class="service"> 
+                    <h3>Tech Skills</h3>
+                    <p> JavaScript | Python | React | Redux | HTML | CSS | NodeJS | Express | MySQL | PostgreSQL | MongoDB | Flask | Restful API   Development | Mocha | Chai | GitHub | Jira </p>
+                    <h3>Other Skills</h3>
+                    <p>Entrepreneurship | E-commerce | Brand Development | Operations Management | Strategic Planning</p>
+                </div>
+                
+                <!-- <div class="service">
+                    <h3>Front-End</h3>
+                    <p>React, Redux, HTML, CSS</p>
+                </div> -->
+            </div> 
+            
+            <a href="#work" class="btn">My Work</a>
+        </section>
+        
+        
+        <!-- About me -->
+        <section class="about-me" id="about">
+           <h2 class="section__title section__title--about">Who I am</h2>
+           <p class="section__subtitle section__subtitle--about">Developer based out of Los Angeles</p>
+           
+           <div class="about-me__body">
+               <p>Successful e-commerce entrepreneur turned software engineer.
+                   Knowledgeable in front-end web development, back-end web development, databases, data structures, and algorithms.
+                </p>
+                <p>
+                   Thank you for checking out my portfolio!
+               </p>
+               <p>Grace Hopper 2020 Software Engineering Scholar – Virtual (2020)</p>
+           </div>
+           
+           <img src="img/losangeles.jpg" alt="Los Angeles" class="about-me__img">
+        </section>
+        
+        <!-- My Work -->
+        <section class="my-work" id="work">
+            <h2 class="section__title section__title--work">My work</h2>
+            <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
+            
+            <div class="portfolio">
+                <!-- Portfolio item 01 -->
+                <a href="https://github.com/kmazariegos/amazona-app" class="portfolio__item">
+                    <img src="img/amazon.png" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 02 -->
+                <a href="https://github.com/kmazariegos/starwars-react-app" class="portfolio__item">
+                    <img src="img/starwars.png" alt="" class="portfolio__img">
+                </a>
+                
+            </div>
+        </section>
+        
+        
+        <!-- Footer -->
+        <footer class="footer">
+            <a href="mailto:mazariek@gmail.com" class="footer__link">mazariek@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/karla-mazariegos/">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/kmazariegos">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+        
+        
+        <script src="js/index.js"></script>
+        
+    </body>
+</html>
